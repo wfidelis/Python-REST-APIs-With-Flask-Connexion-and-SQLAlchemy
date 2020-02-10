@@ -36,7 +36,7 @@ def read():
     return [PEOPLE[key] for key in sorted(PEOPLE.keys())]
 
 def read_one(lname):
-        """
+    """
     This function responds to a request for /api/people/{lname}
     with one matching person from people
     :param lname:   last name of person to find
